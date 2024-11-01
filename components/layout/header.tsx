@@ -13,16 +13,17 @@ const Header = () => {
       "
     >
       <div
-        className="p-4 
-        m-auto
-        lg:max-w-[990px]
-        md:max-w-[760px]
-        sm:max-w-[600px]"
+        className=" 
+          m-auto
+          lg:max-w-[990px]
+          md:max-w-[760px]
+          sm:max-w-[600px]
+        "
       >
         <h1
-          className={`text-[80px] text-[white] text-center ${rubik80.className}`}
+          className={`lg:text-[80px] text-[70px] text-[white] text-center ${rubik80.className}`}
         >
-          <Link href={"/"}>PokeDex</Link>
+          <Link href={"/"}>Pokemon</Link>
         </h1>
       </div>
     </header>
