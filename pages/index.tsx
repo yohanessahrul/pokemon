@@ -1,3 +1,4 @@
+import Banner from "@/components/banner";
 import HeadHtml from "@/components/head";
 import Layout from "@/components/layout";
 import Nav from "@/components/nav";
@@ -12,7 +13,8 @@ export default function Home() {
       <Layout>
         <main>
           <Nav />
-          <section>
+          <Banner />
+          <section className="bg-[white] mt-6">
             <h1 className={`text-3xl ${bebas.className} text-[orange]`}>
               Homepage
             </h1>

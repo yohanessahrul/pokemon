@@ -6,8 +6,23 @@ export default function Layout({ children }: any) {
   return (
     <>
       <Header />
-      <div className="bg-secondary lg:px-[10%] md:px-[10%] sm:px-[16px]">
-        {children}
+      <div
+        className="
+        w-full
+        bg-secondary
+        bg-gradient-to-b from-primary to-secondary
+        "
+      >
+        <div
+          className="p-6  
+        m-auto
+        lg:max-w-[990px]
+        md:max-w-[760px]
+        sm:max-w-[600px]
+        "
+        >
+          {children}
+        </div>
       </div>
       <Footer />
     </>
