@@ -12,8 +12,8 @@ export default function Home() {
       <HeadHtml title="Homepage" description="Ini adalah homepage" />
       <Layout>
         <main>
-          <Nav />
           <Banner />
+          <Nav />
           <section className="bg-[white] mt-6">
             <h1 className={`text-3xl ${bebas.className} text-[orange]`}>
               Homepage
